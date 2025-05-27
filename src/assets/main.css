@@ -1,0 +1,54 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #42b983;
+  text-decoration: none;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+/* Markdown content styles (used in Post.vue) */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content p {
+  margin-bottom: 1em;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.markdown-content code {
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.markdown-content pre {
+  background-color: #f8f8f8;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.markdown-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
