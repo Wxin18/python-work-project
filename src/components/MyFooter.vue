@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <p>&copy; {{ new Date().getFullYear() }} My Personal Blog. All rights reserved.</p>
+      <p>&copy; {{ new Date().getFullYear() }}我的个人博客，保留所有权利。</p>
     </div>
   </footer>
 </template>
